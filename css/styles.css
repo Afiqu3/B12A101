@@ -13,9 +13,14 @@
 
 /* shared style */
 
-.primary-background {
+.primary-bg {
     background-color: #f5f8ff;
 }
+
+.secondary-bg{
+    background-color: #e5e7ff;
+}
+
 .text-primary{
     color: #252432;
 }
@@ -115,4 +120,76 @@ nav li a {
 .action-description {
     max-width: 475px;
     margin: 0px 50px 25px 0px;
+}
+
+/* productive styles */
+.productive{
+    margin: 100px 200px 200px;
+    border-radius: 20px;
+    padding: 50px 80px;
+}
+
+.productive-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.productive-header {
+    font-size: 100px;
+}
+
+/* feedback styles */
+
+.feedback{
+    margin: 0 200px 200px;
+}
+
+.feedback-contents{
+    display: flex;
+    margin-top: 70px;
+    gap: 20px;
+}
+
+.feedback-content {
+    background-color: #fafcff;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 20px;
+}
+
+.feedback-content-header {
+    font-size: 28px;
+    font-weight: bold;
+    color: #1e1e1e;
+    padding: 20px 0 10px 0;
+}
+
+.feedback-content-description {
+    font-size: 18px;
+    font-weight: 400;
+    color: #1e1e1e;
+    padding-bottom: 25px;
+}
+
+.feedback-user {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.feedback-user img{
+    border-radius: 50%;
+}
+
+.feedback-user-name{
+    font-size: 17px;
+    color: #757575;
+    padding-bottom: 7px;
+}
+
+.feedback-user-date{
+    font-size: 15px;
+    color: #b3b3b3;
 }
