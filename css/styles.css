@@ -15,6 +15,7 @@
 
 .primary-bg {
     background-color: #f5f8ff;
+    border-bottom: 1px solid #e0e0e0;
 }
 
 .secondary-bg{
@@ -192,4 +193,112 @@ nav li a {
 .feedback-user-date{
     font-size: 15px;
     color: #b3b3b3;
+}
+
+/* getstart styles */
+
+.getstart {
+    margin: 0 200px 200px;
+    background-color: #ffffff;
+    padding: 100px 100px 70px 100px;
+    border-radius: 10px;
+}
+
+.getstart-description{
+    font-size: 15px;
+    color: #9a9ba5;
+    margin: 23px 0;
+}
+
+.getstart-btn{
+    margin-bottom: 20px;
+}
+
+.getstart figure img{
+    border-radius: 50px;
+}
+
+/* contract styles */
+.contract {
+    margin: 0 200px 200px;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+
+.contract-column h3{
+    font-size: 100px;
+}
+
+.contract-column{
+    width: 50%;
+}
+
+.contract label {
+    color: #000000;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+
+.contract input[type="text"],  .contract input[type="email"]{
+    height: 64px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: white;
+    display: block;
+    width: 90%;
+    padding: 10px 28px;
+    margin: 10px 0;
+    border: 1px solid #e0e0e0;
+}
+
+.contract textarea {
+    height: 120px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: white;
+    display: block;
+    width: 90%;
+    padding: 10px 28px;
+    margin: 10px 0;
+    border: 1px solid #e0e0e0;
+}
+
+.contract input[type="submit"] {
+    width: 100%;
+    margin: 10px 0;
+}
+
+/* footer styles */
+
+.footer {
+    background-color: #ffffff;
+    margin: 110px 100px 80px 100px;
+    text-align: center;
+}
+
+.footer h1 {
+    font-size: 100px;
+    font-weight: bolder;
+}
+
+.footer-description {
+    font-size: 15px;
+    color: #9a9ba5;
+    margin: 15px 510px;
+}
+
+.footer-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+.footer-links li a {
+    text-decoration: none;
+    color: #9a9ba5;
+    font-size: 15px;
 }
