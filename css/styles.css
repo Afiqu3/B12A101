@@ -286,7 +286,8 @@ nav li a {
 .footer-description {
     font-size: 15px;
     color: #9a9ba5;
-    margin: 15px 510px;
+    margin: 15px 0;
+    padding: 0 500px;
 }
 
 .footer-links {
